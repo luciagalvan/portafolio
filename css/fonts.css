@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Work Sans";
+  src: url("../assets/fonts/WorkSans-Roman-VF.ttf");
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../assets/fonts/WorkSans-Roman-VF.ttf");
+  font-style: italic;
+}
+
+a {
+  font-family: Work Sans;
+  text-decoration: none;
+
+  color: black;
+  font-weight: 400;
+
+  transition: font-weight 1.5s linear, color 1.5s linear;
+}
+
+a:hover {
+  font-weight: 200;
+  color: rgba(255, 255, 255, 0);
+  /* color: rgb(112, 255, 200); */
+}

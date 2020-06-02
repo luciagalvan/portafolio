@@ -1,0 +1,43 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+
+  margin: 0 0 auto 2%;
+
+  grid-area: nav;
+}
+.navbar > .arrow {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 6vmin;
+}
+.navbar > .line-container {
+  flex-grow: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+.line-container > .line {
+  background-color: black;
+  height: 0.6vmin;
+}
+.navbar > .routes {
+  width: 44vw;
+  margin-left: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
+  /* font-size: 2.5em; */
+  font-size: 4vmin;
+}
+.navbar img {
+  min-width: 100%;
+}
