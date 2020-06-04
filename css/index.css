@@ -1,6 +1,6 @@
 .two-col {
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 5fr;
+  grid-template-rows: 1fr 5fr 0.2fr;
 }
 
 .floating-layer .header-container {
@@ -50,6 +50,21 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.footer {
+  grid-row: 3;
+  grid-column: span 2;
+  display: flex;
+  /* margin: 0 5vw; */
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.footer p {
+  font-family: Work Sans;
+  font-size: 1.5vmin;
+  margin: 0;
 }
 
 @media (max-width: 900px) {
